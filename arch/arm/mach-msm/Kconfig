@@ -4890,3 +4890,10 @@ config SEC_SMART_MGR_RUNQUEUE_AVG
 	help
 	  Support for Smart MGR function.
 endif
+
+config FORCE_FAST_CHARGE
+	bool "Force AC charge mode at will"
+	default y
+	help
+		A simple sysfs interface to force adapters that
+		are detected as USB to charge as AC.
