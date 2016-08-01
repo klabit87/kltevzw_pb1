@@ -82,6 +82,7 @@ GTAGS
 *.orig
 *~
 \#*#
+*.img
 
 #
 # Leavings from module signing
@@ -95,3 +96,4 @@ x509.genkey
 # output directory
 #
 output
+mkbootimg.sh
